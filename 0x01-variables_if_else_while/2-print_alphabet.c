@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - this functions output is lowercase alphabet
  *
@@ -6,8 +7,11 @@
  */
 int main(void)
 {
-for (char low_alpha = 'a' ; low_alpha <= 'z' ; low_alpha++)
-putchar(low_alpha);
+char alpha_low = 'a';
+while (alpha_low <= 'z')
+{
+putchar(alpha_low);
+alpha_low++;
 }
 putchar('\n');
 return (0);

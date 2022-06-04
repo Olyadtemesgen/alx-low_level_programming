@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-int hex = '0';
-while (hex <= '9')
+int hexx = '0';
+while (hexx <= '9')
 {
 putchar(hex);
-hex++;
+hexx++;
 }
 {
-hex = 'a';
+char hex = 'a';
 while (hex <= 'f')
 putchar(hex);
 hex++;

@@ -8,7 +8,7 @@ int main(void)
 int hexx = '0';
 while (hexx <= '9')
 {
-putchar(hex);
+putchar(hexx);
 hexx++;
 }
 {

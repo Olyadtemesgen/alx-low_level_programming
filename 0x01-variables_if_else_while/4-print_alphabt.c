@@ -8,7 +8,7 @@ int main(void)
 char leqande = 'a';
 while (leqande <= 'z')
 {
-if (leqande !='q' && leqande != 'e')
+if (leqande != 'q' && leqande != 'e')
 {
 putchar(leqande);
 }

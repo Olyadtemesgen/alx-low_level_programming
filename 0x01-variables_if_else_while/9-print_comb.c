@@ -15,7 +15,6 @@ putchar(32);
 a++;
 }
 putchar(57);
-putchar(32);
 return (0);
 }
 

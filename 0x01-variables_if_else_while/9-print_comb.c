@@ -10,6 +10,8 @@ int a = 48;
 
 while (a < 58)
 {
+if (a < 58)
+{
 putchar(a);
 putchar(44);
 }

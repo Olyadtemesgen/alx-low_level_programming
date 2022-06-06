@@ -10,10 +10,14 @@ int a = 48;
 
 while (a < 58)
 {
-if (a < 58)
+if (a < 57)
 {
 putchar(a);
 putchar(44);
+}
+else if (a == 57)
+{
+putchar(57);
 }
 putchar(32);
 a++;

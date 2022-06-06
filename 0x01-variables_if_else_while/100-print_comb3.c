@@ -1,34 +1,33 @@
- #include <stdio.h>
+#include <stdio.h>
 /**
- *  * main - print numbers from 00 to 99.
- *  (*
- *   * Return: 0 on success
- *    */
+ * main - Entry point,this returns some numbers from 0 t0 89
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-int i = '0';
-int j = '0';
-while (i <= '8')
-{
-while (j <= '9')
-{
-putchar(i);
-putchar(j);
-if (j == '9' && i == '9')
-{
-putchar('\n');
-}
-else
-{
-putchar(',');
-putchar(' ');														}					
-j++;
-}
-if (j >= '9')
-{
-j = '0';
-}
-i++;
-}
-return (0);
+	int a = 48;
+	int b = 48;
+
+	while (a < 58)
+	{
+		while (b < 58)
+		{
+			putchar(a);
+			putchar(a);
+			if (a == 57 && b == 57)
+			{
+
+			}
+			else
+			{
+				putchar(44);
+				putchar(' ');
+			}
+			b++;
+		}
+		a++;
+	}
+	putchar('\n');
+	return (0);
 }

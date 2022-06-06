@@ -12,6 +12,7 @@ while (a < 57)
 putchar(a);
 putchar(44);
 putchar(32);
+a++;
 }
 putchar(57);
 return (0);

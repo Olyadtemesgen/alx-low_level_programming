@@ -5,17 +5,15 @@
  */
 int main(void)
 {
-int hexx = '0';
-while (hexx <= '9')
+int i;
+
+for (i = 48; i < 58; i++)
 {
-putchar(hexx);
-hexx++;
+putchar(i);
 }
+for (i = 'a'; i <= 'f'; i++)
 {
-char hex = 'a';
-while (hex <= 'f')
-putchar(hex);
-hex++;
+putchar(i);
 }
 putchar('\n');
 return (0);

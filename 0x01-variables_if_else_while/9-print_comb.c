@@ -6,16 +6,14 @@
  */
 int main(void)
 {
-int a = 49;
-putchar(48);
+int a = 48;
+
 while (a < 58)
 {
-if (a < 58)
-{
-putchar(44);
-putchar(32);
 putchar(a);
+putchar(44);
 }
+putchar(32);
 a++;
 }
 return (0);

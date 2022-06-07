@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * print_sign - print wether number is neg or pos
  *@n: - it is a kind integer

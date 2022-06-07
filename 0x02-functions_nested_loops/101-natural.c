@@ -3,8 +3,8 @@
  * main - add nums
  *
  * Return: always 0
- */
-void main(void)
+*/
+int main(void)
 {
 	int i;
 	int j;
@@ -15,9 +15,10 @@ void main(void)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
 		{
-			j += i
+			j += i;
 		}
 	}
 		printf("%d", j);
+		return (0);
 	}
 

@@ -12,7 +12,7 @@ int _abs(int c)
 	}
 	else
 	{
-		d = -1 * c;
+		int d = -1 * c;
 		return (d);
 	}
 	return (0);

@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * add - add two numbers
+ *@a: number 1
+ *@b: number 2 
+ * Return: Void.
+ */
+int add(int a, int b)
+{
+	int c;
+
+	c = a + b;
+
+	return (c);
+}
+

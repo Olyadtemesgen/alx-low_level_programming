@@ -3,7 +3,7 @@
  * print_sign - print wether number is neg or pos
  *@n: - it is a kind integer
  *
- * Return: Always0
+ * Return: Always 0
  */
 int print_sign(int n)
 {

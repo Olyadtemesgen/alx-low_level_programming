@@ -5,13 +5,17 @@
  */
 void jack_bauer(void)
 {
-for (int i = 0; i < 3; i++)
+	int i;
+for (i = 0; i < 3; i++)
 {
-for (int j = 0; j < 10; j++)
+	int j;
+for (j = 0; j < 10; j++)
 {
-for (int k = 0; k < 6; k++)
+	int k;
+for (k = 0; k < 6; k++)
 {
-for (int h = 0; h < 10; h++)
+	int h;
+for (h = 0; h < 10; h++)
 {
 if (i < 2)
 {

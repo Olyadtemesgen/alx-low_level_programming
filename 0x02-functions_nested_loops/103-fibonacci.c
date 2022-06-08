@@ -19,6 +19,6 @@ if (b % 2 == 0)
 e += b;
 }
 }
-printf("%lu", e);
+printf("%lu\n", e);
 return (0);
 }

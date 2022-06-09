@@ -1,16 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - tells whether  up
+ *@c: ASCII num
+ *Return: 0 or 1
  */
-int main(void)
+int _isupper(int c)
 {
-char c;
-c = 'A';
-printf("%c: %d\n", c, _isupper(c));
-c = 'a';
-printf("%c: %d\n", c, _isupper(c));
-return (0);
+	if (c < 91 && c > 64)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }

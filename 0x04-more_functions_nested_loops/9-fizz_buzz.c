@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - fizzbuzz
@@ -6,7 +7,7 @@
 int main(void)
 {
 int i;
-for (i = 1; i < 101; i++)
+for (i = 1; i < 100; i++)
 {
 if (i % 15 == 0)
 {
@@ -26,6 +27,7 @@ printf("%d", i);
 }
 putchar(' ');
 }
+printf("%s", "Buzz");
 putchar('\n');
 return (0);
 }

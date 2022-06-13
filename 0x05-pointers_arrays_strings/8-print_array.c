@@ -1,3 +1,9 @@
+/**
+ * print_array - print array
+ * @a: int a
+ * @n: int n
+ * Return: none
+ */
 #include "main.h"
 #include <stdio.h>
 void print_array(int *a, int n)
@@ -11,5 +17,5 @@ void print_array(int *a, int n)
 			printf("%d, ", a[i]);
 		}
 	}
-	printf("%d\n",a[n - 1]);
+	printf("%d\n", a[n - 1]);
 }

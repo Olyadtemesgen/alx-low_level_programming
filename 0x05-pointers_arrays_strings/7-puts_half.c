@@ -17,7 +17,7 @@ void puts_half(char *str)
 	b = a;
 
 	c = (b % 2 == 0) ? (b / 2) : (b - 1) / 2;
-	while (c <= a)
+	while (c <= (a - 1))
 	{
 		_putchar(str[c]);
 		c++;

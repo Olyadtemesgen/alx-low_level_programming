@@ -2,7 +2,7 @@
  * _strspn - a function
  * @s: a char
  * @accept : a char
- * Return - unsigned int
+ * Return: unsigned int
  */
 unsigned int _strspn(char *s, char *accept)
 {

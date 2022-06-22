@@ -5,9 +5,6 @@ int tmp_prime(int n, int i);
  * @n: integer
  * @m: integer
  * Return: boolean
- * is_prime_number - decides whether a nimber os prime of mot
- * @n: integer
- * Return: recursion
  */
 int divisors(int n, int m)
 {
@@ -24,6 +21,11 @@ int divisors(int n, int m)
 		return (1);
 	}
 }
+/**
+* is_prime_number - decides whether a nimber os prime of mot
+* @n: integer
+* Return: recursion
+*/
 int is_prime_number(int n)
 {
 	if ((!(n % 2) && n != 2) || n < 2)

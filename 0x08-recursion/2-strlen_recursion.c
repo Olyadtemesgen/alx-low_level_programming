@@ -1,9 +1,8 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * _strlen_recursion - it is about string length
- * @s: pointer
- * Return: the recussed function
+ * _strlen_recursion -t is the size of recursion 
+ * @s: it is a pointer
+ * Return: recursion
  */
 int _strlen_recursion(char *s)
 {

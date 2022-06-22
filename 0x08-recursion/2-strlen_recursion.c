@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen_recursion -t is the size of recursion 
+ * _strlen_recursion -t is the size of recursion
  * @s: it is a pointer
  * Return: recursion
  */

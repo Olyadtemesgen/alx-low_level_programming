@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * alloc_grid - returns a pointer
- * @width: width 
+ * @width: width
  * @height: height.
  * Return: pointer of pointer of an int
  */

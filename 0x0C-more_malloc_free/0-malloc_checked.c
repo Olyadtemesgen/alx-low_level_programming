@@ -7,13 +7,11 @@
  * @pointer: it is a pointer
  * @b:an argument
  *return:pointer 
- *98 if unsiffient
  */
 void *malloc_checked(unsigned int b)
 {
 void *pointer;
 pointer = malloc(b);
-
 if (pointer == NULL)
 {
 exit(98);

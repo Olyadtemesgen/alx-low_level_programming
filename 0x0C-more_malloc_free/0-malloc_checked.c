@@ -6,18 +6,17 @@
  * malloc_checked - it returns a pointer of malloc
  * @pointer: it is a pointer
  * @b:an argument
- *return:void
+ *return:pointer 
+ *98 if unsiffient
  */
 void *malloc_checked(unsigned int b)
 {
 void *pointer;
 pointer = malloc(b);
+
 if (pointer == NULL)
 {
 exit(98);
 }
-else
-{
 return (pointer);
-}
 }

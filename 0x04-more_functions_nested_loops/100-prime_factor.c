@@ -14,7 +14,7 @@ int main(void)
 		if (a % i == 0)
 		{
 			evaluator = 1;
-			for (j = 2; j <= i; j++)
+			for (j = 2; j <= i / 2; j++)
 			{
 				if (i % j == 0)
 				{
@@ -30,5 +30,3 @@ int main(void)
 	}
 	return (0);
 }
-			
-
